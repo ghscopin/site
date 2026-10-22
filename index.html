@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guilherme Scopin — Designer Criativo</title>
+  <meta name="description" content="Portfólio de Guilherme Scopin — UI/UX, Motion Design, Direção de Arte e Social Media." />
+
+  <!-- Stylesheet (Fontes locais carregadas via css/style.css) -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Scroll Reading Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+  <!-- Custom Interactive Tech Cursor (Dot & Aura Ring) -->
+  <div class="custom-cursor-dot" aria-hidden="true"></div>
+  <div class="custom-cursor-ring" aria-hidden="true"></div>
+
+  <!-- Dynamic AI Digital Background (Generative Neural Mesh & Shapes) -->
+  <canvas id="ai-digital-canvas" class="ai-digital-canvas" aria-hidden="true"></canvas>
+
+  <!-- Ambient Backdrop & Cursor Spotlight -->
+  <div class="cursor-spotlight"></div>
+  <div class="noise-overlay"></div>
+  <div class="glow-orb orb-1" data-parallax="0.08"></div>
+  <div class="glow-orb orb-2" data-parallax="-0.06"></div>
+  <div class="glow-orb orb-3" data-parallax="0.04"></div>
+
+  <!-- ===================================================================
+       HEADER & NAVIGATION
+       =================================================================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-badge">GS</div>
+        <div class="brand-text">
+          <span class="brand-name">Guilherme Scopin</span>
+          <span class="brand-role">Creative Designer</span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#lab" class="nav-link">Lab</a></li>
+          <li><a href="#processo" class="nav-link">Processo</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/5516997748334?text=Olá%20Guilherme,%20vi%20seu%20portfólio%20e%20gostaria%20de%20um%20orçamento!" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-pulse">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.45 0.742.964 1.201.662.591 1.221.774 1.394.86.173.086.274.072.376-.043.101-.116.433-.506.549-.679.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.66 1.434 5.174L2 22l4.981-1.396C8.423 21.464 10.151 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+          </svg>
+          <span>WhatsApp</span>
+        </a>
+        <button class="mobile-toggle" aria-label="Abrir Menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================================================================
+       HERO SECTION (High-Visual, Interactive 3D Parallax & Badges)
+       =================================================================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-backdrop-glow"></div>
+
+    <div class="container hero-inner-centered">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        DISPONÍVEL PARA NOVOS PROJETOS
+      </div>
+
+      <h1 class="hero-title">
+        Design visual que <span class="text-gradient">conecta e converte.</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Sou <strong>Guilherme Scopin</strong> — designer criativo focado em identidade visual, motion design e social media de alto impacto para marcas que desejam se&nbsp;destacar.
+      </p>
+
+      <!-- Interactive Capabilities Pills -->
+      <div class="hero-capabilities-bar">
+        <span class="cap-tag"><span class="cap-sparkle cyan">✦</span> UI/UX Design</span>
+        <span class="cap-tag"><span class="cap-sparkle pink">⚡</span> Motion Graphics 2D</span>
+        <span class="cap-tag"><span class="cap-sparkle purple">★</span> Identidade Visual</span>
+        <span class="cap-tag"><span class="cap-sparkle yellow">📱</span> Social Media</span>
+        <span class="cap-tag"><span class="cap-sparkle red">🎯</span> Performance Ads</span>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#projetos" class="btn btn-primary btn-shine">
+          <span>Ver Projetos Selecionados</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://wa.me/5516997748334?text=Olá%20Guilherme,%20vi%20seu%20portfólio%20e%20gostaria%20de%20um%20orçamento!" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+          <span>Falar no WhatsApp</span>
+        </a>
+      </div>
+
+      <div class="hero-metrics">
+        <div class="metric-item" data-tilt>
+          <span class="metric-number metric-experience">+ de 10 anos</span>
+          <span class="metric-label">Desde 2014 no Mercado</span>
+        </div>
+        <div class="metric-item" data-tilt>
+          <span class="metric-number">100%</span>
+          <span class="metric-label">Projetos Autorais</span>
+        </div>
+        <div class="metric-item" data-tilt>
+          <span class="metric-number">+CTR</span>
+          <span class="metric-label">Foco em Conversão</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee Ticker -->
+  <div class="marquee-container">
+    <div class="marquee-track">
+      <div class="marquee-item">UI/UX DESIGN <span class="marquee-dot"></span></div>
+      <div class="marquee-item">MOTION GRAPHICS <span class="highlight">2D</span> <span class="marquee-dot"></span></div>
+      <div class="marquee-item">SOCIAL MEDIA <span class="marquee-dot"></span></div>
+      <div class="marquee-item">BRANDING & DIREÇÃO DE ARTE <span class="marquee-dot"></span></div>
+      <div class="marquee-item">PERFORMANCE ADS <span class="highlight">GOOGLE & META</span> <span class="marquee-dot"></span></div>
+      <div class="marquee-item">CARROSSEL RETENÇÃO MÁXIMA <span class="marquee-dot"></span></div>
+      <div class="marquee-item">E-COMMERCE CREATIVE <span class="marquee-dot"></span></div>
+      <!-- Loop duplicate -->
+      <div class="marquee-item">UI/UX DESIGN <span class="marquee-dot"></span></div>
+      <div class="marquee-item">MOTION GRAPHICS <span class="highlight">2D</span> <span class="marquee-dot"></span></div>
+      <div class="marquee-item">SOCIAL MEDIA <span class="marquee-dot"></span></div>
+      <div class="marquee-item">BRANDING & DIREÇÃO DE ARTE <span class="marquee-dot"></span></div>
+      <div class="marquee-item">PERFORMANCE ADS <span class="highlight">GOOGLE & META</span> <span class="marquee-dot"></span></div>
+      <div class="marquee-item">CARROSSEL RETENÇÃO MÁXIMA <span class="marquee-dot"></span></div>
+      <div class="marquee-item">E-COMMERCE CREATIVE <span class="marquee-dot"></span></div>
+    </div>
+  </div>
+
+  <!-- ===================================================================
+       PROJETOS EM DESTAQUE (Ordem Exata)
+       =================================================================== -->
+  <div id="projetos">
+
+    <!-- ===============================================================
+         01. MISTAKE MACHINE (produções independentes)
+         Mosaico (como em Pink Joint) sem faixas pretas no fundo
+         =============================================================== -->
+    <section class="section mistake-machine-section" id="mistake-machine">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><span class="num">01</span> • PROJETO</div>
+          <h2 class="section-title">Mistake Machine</h2>
+          <span class="section-client-type">Produções independentes</span>
+          <div class="service-rendered-tag">
+            <span>Serviço prestado: Identidade Visual, Logotipo & Conceito Visual</span>
+            <span class="brand-badge-pill">✦ Desenvolvimento de Logo e Identidade Visual</span>
+          </div>
+          <p class="section-subtitle">
+            Criação de identidade visual autoral, logotipo e conceito visual para produções&nbsp;independentes.
+          </p>
+        </div>
+
+        <!-- Mosaico / Masonry exatamente como em Pink Joint -->
+        <div class="masonry-gallery">
+          <div class="masonry-item" data-lightbox data-type="image" data-src="Mistake Machine/mosaico/POsT DUPLO.png" data-title="Conceito Visual" data-client="Mistake Machine">
+            <img src="Mistake Machine/mosaico/POsT DUPLO.png" alt="Conceito Visual" loading="lazy" />
+          </div>
+
+          <div class="masonry-item" data-lightbox data-type="image" data-src="Mistake Machine/mosaico/Zomburguer.png" data-title="Conceito Visual" data-client="Mistake Machine">
+            <img src="Mistake Machine/mosaico/Zomburguer.png" alt="Conceito Visual" loading="lazy" />
+          </div>
+
+          <div class="masonry-item" data-lightbox data-type="image" data-src="Mistake Machine/mosaico/SKULL.png" data-title="Conceito Visual" data-client="Mistake Machine">
+            <img src="Mistake Machine/mosaico/SKULL.png" alt="Conceito Visual" loading="lazy" />
+          </div>
+
+          <div class="masonry-item" data-lightbox data-type="image" data-src="Mistake Machine/mosaico/DD.png" data-title="Conceito Visual" data-client="Mistake Machine">
+            <img src="Mistake Machine/mosaico/DD.png" alt="Conceito Visual" loading="lazy" />
+          </div>
+
+          <div class="masonry-item" data-lightbox data-type="image" data-src="Mistake Machine/mosaico/Prancheta 2 copiar.png" data-title="Conceito Visual" data-client="Mistake Machine">
+            <img src="Mistake Machine/mosaico/Prancheta 2 copiar.png" alt="Conceito Visual" loading="lazy" />
+          </div>
+
+          <div class="masonry-item" data-lightbox data-type="image" data-src="Mistake Machine/mosaico/IMG-20220211-WA0051 (1).jpg" data-title="Conceito Visual" data-client="Mistake Machine">
+            <img src="Mistake Machine/mosaico/IMG-20220211-WA0051 (1).jpg" alt="Conceito Visual" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============================================================
+         02. PINK JOINT (E-commerce produtos de cannabis - Canadá)
+         =============================================================== -->
+    <section class="section pink-joint-section" id="pink-joint">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><span class="num">02</span> • PROJETO</div>
+          <h2 class="section-title">Pink Joint</h2>
+          <span class="section-client-type">E-commerce produtos de cannabis - Canadá</span>
+          <div class="service-rendered-tag">Serviço prestado: Motion Design, Banners, E-mail Marketing & Social Media</div>
+          <p class="section-subtitle">
+            Direção criativa completa para e-commerce: motion banner de topo, newsletters, campanhas e carrosséis para redes&nbsp;sociais.
+          </p>
+        </div>
+
+        <!-- Banner Motion Evidenciado — reproduzindo o tempo todo em proporção integral -->
+        <div class="pj-prominent-motion-banner" data-lightbox data-type="video" data-src="Pink Joint/banners/Composição 1.mp4" data-title="Banner Motion" data-client="Pink Joint">
+          <div class="pj-banner-badge">▶ Banner Motion — Loop Contínuo</div>
+          <video src="Pink Joint/banners/Composição 1.mp4" autoplay muted loop playsinline></video>
+        </div>
+
+        <!-- 2 Carrosséis de Social Media exibidos juntos lado a lado -->
+        <h3 style="font-family:var(--font-heading);font-size:1.2rem;font-weight:700;margin-bottom:1.4rem;display:flex;align-items:center;gap:0.6rem;">
+          <span style="color:#ff2e93;">✦</span> Carrosséis para Redes Sociais
+        </h3>
+
+        <div class="dual-carousel-grid">
+          <!-- Carrossel 1 (2 lâminas) -->
+          <div class="carousel-full-stage interactive-carousel">
+            <div class="carousel-top-bar">
+              <div class="client-identity-pill">
+                <div class="client-avatar pj">PJ</div>
+                <div class="client-info-text">
+                  <strong>Pink Joint</strong>
+                  <span>Carrossel 01</span>
+                </div>
+              </div>
+              <div class="carousel-counter-badge">01 / 02</div>
+            </div>
+
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Pink Joint/Social Media/carrossel 1/420_1.png" data-title="Carrossel 1 (Lâmina 1)" data-client="Pink Joint">
+                  <img src="Pink Joint/Social Media/carrossel 1/420_1.png" alt="Carrossel 1 Lâmina 1" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Pink Joint/Social Media/carrossel 1/420_2.png" data-title="Carrossel 1 (Lâmina 2)" data-client="Pink Joint">
+                  <img src="Pink Joint/Social Media/carrossel 1/420_2.png" alt="Carrossel 1 Lâmina 2" />
+                </div>
+              </div>
+              <button class="carousel-nav-btn prev" aria-label="Slide anterior">‹</button>
+              <button class="carousel-nav-btn next" aria-label="Próximo slide">›</button>
+            </div>
+
+            <div class="carousel-pagination">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+            </div>
+
+            <div class="carousel-thumb-strip">
+              <button class="carousel-thumb-btn active" title="Lâmina 1"><img src="Pink Joint/Social Media/carrossel 1/420_1.png" alt="Thumb 1" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 2"><img src="Pink Joint/Social Media/carrossel 1/420_2.png" alt="Thumb 2" /></button>
+            </div>
+          </div>
+
+          <!-- Carrossel 2 (3 lâminas) -->
+          <div class="carousel-full-stage interactive-carousel">
+            <div class="carousel-top-bar">
+              <div class="client-identity-pill">
+                <div class="client-avatar pj">PJ</div>
+                <div class="client-info-text">
+                  <strong>Pink Joint</strong>
+                  <span>Carrossel 02</span>
+                </div>
+              </div>
+              <div class="carousel-counter-badge">01 / 03</div>
+            </div>
+
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Pink Joint/Social Media/carrossel 2/easter-cannabis.png" data-title="Carrossel 2 (Lâmina 1)" data-client="Pink Joint">
+                  <img src="Pink Joint/Social Media/carrossel 2/easter-cannabis.png" alt="Carrossel 2 Lâmina 1" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Pink Joint/Social Media/carrossel 2/easter-cannabis2.png" data-title="Carrossel 2 (Lâmina 2)" data-client="Pink Joint">
+                  <img src="Pink Joint/Social Media/carrossel 2/easter-cannabis2.png" alt="Carrossel 2 Lâmina 2" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Pink Joint/Social Media/carrossel 2/easter-cannabis3.png" data-title="Carrossel 2 (Lâmina 3)" data-client="Pink Joint">
+                  <img src="Pink Joint/Social Media/carrossel 2/easter-cannabis3.png" alt="Carrossel 2 Lâmina 3" />
+                </div>
+              </div>
+              <button class="carousel-nav-btn prev" aria-label="Slide anterior">‹</button>
+              <button class="carousel-nav-btn next" aria-label="Próximo slide">›</button>
+            </div>
+
+            <div class="carousel-pagination">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+
+            <div class="carousel-thumb-strip">
+              <button class="carousel-thumb-btn active" title="Lâmina 1"><img src="Pink Joint/Social Media/carrossel 2/easter-cannabis.png" alt="Thumb 1" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 2"><img src="Pink Joint/Social Media/carrossel 2/easter-cannabis2.png" alt="Thumb 2" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 3"><img src="Pink Joint/Social Media/carrossel 2/easter-cannabis3.png" alt="Thumb 3" /></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stories Verticais (Sem mockup de celular — área completa 9:16) -->
+        <h3 style="font-family:var(--font-heading);font-size:1.2rem;font-weight:700;margin-bottom:1.4rem;display:flex;align-items:center;gap:0.6rem;">
+          <span style="color:#ff2e93;">✦</span> Stories Verticais
+        </h3>
+        <div class="pj-stories-grid">
+          <div class="story-card-box" data-lightbox data-type="video" data-src="Pink Joint/stories/storie_1080x1920.mp4" data-title="Story Motion 01" data-client="Pink Joint">
+            <div class="story-media-vertical">
+              <video src="Pink Joint/stories/storie_1080x1920.mp4" muted loop playsinline></video>
+            </div>
+            <div class="story-card-caption">Story Motion 01</div>
+          </div>
+
+          <div class="story-card-box" data-lightbox data-type="video" data-src="Pink Joint/stories/storie_2.mp4" data-title="Story Motion 02" data-client="Pink Joint">
+            <div class="story-media-vertical">
+              <video src="Pink Joint/stories/storie_2.mp4" muted loop playsinline></video>
+            </div>
+            <div class="story-card-caption">Story Motion 02</div>
+          </div>
+
+          <div class="story-card-box" data-lightbox data-type="image" data-src="Pink Joint/stories/G-B.png" data-title="Story Estático" data-client="Pink Joint">
+            <div class="story-media-vertical">
+              <img src="Pink Joint/stories/G-B.png" alt="Story Estático" loading="lazy" />
+            </div>
+            <div class="story-card-caption">Story Estático</div>
+          </div>
+        </div>
+
+        <!-- Abas de Filtro de Categorias -->
+        <div class="filter-tabs" data-target="pj-full-gallery">
+          <button class="tab-btn active" data-filter="all">Todos os Criativos</button>
+          <button class="tab-btn" data-filter="banners">Banners Web</button>
+          <button class="tab-btn" data-filter="social">Social Media</button>
+          <button class="tab-btn" data-filter="email">E-mail Marketing</button>
+        </div>
+
+        <!-- Galeria de Peças com Área Completa Visível (Masonry) -->
+        <div class="masonry-gallery" id="pj-full-gallery">
+          <!-- Banners -->
+          <div class="masonry-item" data-category="banners" data-lightbox data-type="image" data-src="Pink Joint/banners/1530x510.png" data-title="Banner Web" data-client="Pink Joint">
+            <img src="Pink Joint/banners/1530x510.png" alt="Banner Web" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="banners" data-lightbox data-type="image" data-src="Pink Joint/banners/1530x510(1).png" data-title="Banner Promoção" data-client="Pink Joint">
+            <img src="Pink Joint/banners/1530x510(1).png" alt="Banner Promoção" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="banners" data-lightbox data-type="image" data-src="Pink Joint/banners/p.png" data-title="Banner Coleção" data-client="Pink Joint">
+            <img src="Pink Joint/banners/p.png" alt="Banner Coleção" loading="lazy" />
+          </div>
+
+          <!-- Social Media -->
+          <div class="masonry-item" data-category="social" data-lightbox data-type="image" data-src="Pink Joint/Social Media/YES WE CANNABIS.png" data-title="Campanha Social" data-client="Pink Joint">
+            <img src="Pink Joint/Social Media/YES WE CANNABIS.png" alt="Campanha Social" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="social" data-lightbox data-type="image" data-src="Pink Joint/Social Media/404 ERROR Final.png" data-title="Card Criativo" data-client="Pink Joint">
+            <img src="Pink Joint/Social Media/404 ERROR Final.png" alt="Card Criativo" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="social" data-lightbox data-type="image" data-src="Pink Joint/Social Media/NOTOBACCO.png" data-title="Campanha Especial" data-client="Pink Joint">
+            <img src="Pink Joint/Social Media/NOTOBACCO.png" alt="Campanha Especial" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="social" data-lightbox data-type="image" data-src="Pink Joint/Social Media/tartan-day-weed.png" data-title="Campanha Tartan Day" data-client="Pink Joint">
+            <img src="Pink Joint/Social Media/tartan-day-weed.png" alt="Campanha Tartan Day" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="social" data-lightbox data-type="image" data-src="Pink Joint/Social Media/all-killer-no-filler-fb.png" data-title="Post Promocional" data-client="Pink Joint">
+            <img src="Pink Joint/Social Media/all-killer-no-filler-fb.png" alt="Post Promocional" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="social" data-lightbox data-type="image" data-src="Pink Joint/Social Media/FG_IG_Twitter.png" data-title="Post Social" data-client="Pink Joint">
+            <img src="Pink Joint/Social Media/FG_IG_Twitter.png" alt="Post Social" loading="lazy" />
+          </div>
+
+          <!-- Email Marketing -->
+          <div class="masonry-item" data-category="email" data-lightbox data-type="image" data-src="Pink Joint/email/e-mail.png" data-title="Newsletter Promocional" data-client="Pink Joint">
+            <img src="Pink Joint/email/e-mail.png" alt="Newsletter" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="email" data-lightbox data-type="image" data-src="Pink Joint/email/e-mail(1).png" data-title="Newsletter Lançamento" data-client="Pink Joint">
+            <img src="Pink Joint/email/e-mail(1).png" alt="Newsletter" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="email" data-lightbox data-type="image" data-src="Pink Joint/email/e-mail(2).png" data-title="Newsletter Sazonal" data-client="Pink Joint">
+            <img src="Pink Joint/email/e-mail(2).png" alt="Newsletter" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="email" data-lightbox data-type="image" data-src="Pink Joint/email/e-mail_01.png" data-title="E-mail Marketing" data-client="Pink Joint">
+            <img src="Pink Joint/email/e-mail_01.png" alt="E-mail Marketing" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="email" data-lightbox data-type="image" data-src="Pink Joint/email/e-mail_01(1).png" data-title="E-mail Marketing" data-client="Pink Joint">
+            <img src="Pink Joint/email/e-mail_01(1).png" alt="E-mail Marketing" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="email" data-lightbox data-type="image" data-src="Pink Joint/email/slice 1.png" data-title="E-mail Estruturado" data-client="Pink Joint">
+            <img src="Pink Joint/email/slice 1.png" alt="E-mail Estruturado" loading="lazy" />
+          </div>
+          <div class="masonry-item" data-category="email" data-lightbox data-type="image" data-src="Pink Joint/email/eail.png" data-title="E-mail Promocional" data-client="Pink Joint">
+            <img src="Pink Joint/email/eail.png" alt="E-mail Promocional" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============================================================
+         03. NEXT LEVEL (Gamer Shop)
+         Placeholder Quadrado nos Vídeos + Post Triplo Panorâmico
+         =============================================================== -->
+    <section class="section next-level-section" id="next-level">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><span class="num">03</span> • PROJETO</div>
+          <h2 class="section-title">Next Level</h2>
+          <span class="section-client-type">Gamer Shop</span>
+          <div class="service-rendered-tag">
+            <span>Serviço prestado: Identidade Visual Desenvolvida, Selo, Logotipo, Motion Graphics 2D & Social Media</span>
+            <span class="brand-badge-pill">✦ Desenvolvimento de Logo e Identidade Visual</span>
+          </div>
+          <p class="section-subtitle">
+            Animações para contagens regressivas de lançamento e post triplo panorâmico conectado para&nbsp;Instagram.
+          </p>
+        </div>
+
+        <!-- Matriz de Vídeos (Image 1 request: Space holder QUADRADO) -->
+        <h3 style="font-family:var(--font-heading);font-size:1.15rem;margin-bottom:1.2rem;display:flex;align-items:center;gap:0.6rem;">
+          <span style="color:#06b6d4;">✦</span> Matriz de Vídeos
+        </h3>
+        <div class="nl-video-matrix">
+          <div class="nl-video-card" data-lightbox data-type="video" data-src="Next Level/Social Media/bruxa animar 1080X0180_1.mp4" data-title="Teaser de Lançamento" data-client="Next Level (Gamer Shop)">
+            <div class="nl-card-badge">TEASER</div>
+            <video src="Next Level/Social Media/bruxa animar 1080X0180_1.mp4" muted loop playsinline></video>
+            <div class="nl-bottom-bar"><span class="nl-bottom-title">Teaser de Lançamento</span></div>
+          </div>
+
+          <div class="nl-video-card" data-lightbox data-type="video" data-src="Next Level/Social Media/Contagem Regressiva/3.mp4" data-title="Contagem Regressiva — 3 Dias" data-client="Next Level (Gamer Shop)">
+            <div class="nl-card-badge">CONTAGEM 03</div>
+            <video src="Next Level/Social Media/Contagem Regressiva/3.mp4" muted loop playsinline></video>
+            <div class="nl-bottom-bar"><span class="nl-bottom-title">Faltam 3 Dias</span></div>
+          </div>
+
+          <div class="nl-video-card" data-lightbox data-type="video" data-src="Next Level/Social Media/Contagem Regressiva/2.mp4" data-title="Contagem Regressiva — 2 Dias" data-client="Next Level (Gamer Shop)">
+            <div class="nl-card-badge">CONTAGEM 02</div>
+            <video src="Next Level/Social Media/Contagem Regressiva/2.mp4" muted loop playsinline></video>
+            <div class="nl-bottom-bar"><span class="nl-bottom-title">Faltam 2 Dias</span></div>
+          </div>
+
+          <div class="nl-video-card" data-lightbox data-type="video" data-src="Next Level/Social Media/Contagem Regressiva/1.mp4" data-title="Contagem Regressiva — Amanhã" data-client="Next Level (Gamer Shop)">
+            <div class="nl-card-badge">CONTAGEM 01</div>
+            <video src="Next Level/Social Media/Contagem Regressiva/1.mp4" muted loop playsinline></video>
+            <div class="nl-bottom-bar"><span class="nl-bottom-title">É Amanhã!</span></div>
+          </div>
+        </div>
+
+        <!-- Post Triplo Panorâmico Conectado (Com Animação de Hover - Image 4) -->
+        <div class="panoramic-showcase">
+          <div class="panoramic-header">
+            <h3 class="panoramic-title">Post Triplo Panorâmico — Grid Contínuo de Feed</h3>
+            <p style="color:var(--text-muted);font-size:0.88rem;margin-top:0.3rem;">
+              Três posts individuais alinhados sem emendas que formam uma única imagem contínua no feed do Instagram.
+            </p>
+          </div>
+          <div class="panoramic-grid">
+            <div class="panoramic-slice" data-lightbox data-type="image" data-src="Next Level/Social Media/Post Triplo/POST A.png" data-title="Post Triplo (Parte 1)" data-client="Next Level (Gamer Shop)">
+              <img src="Next Level/Social Media/Post Triplo/POST A.png" alt="Post Triplo Parte 1" loading="lazy" />
+            </div>
+            <div class="panoramic-slice" data-lightbox data-type="image" data-src="Next Level/Social Media/Post Triplo/POST B.png" data-title="Post Triplo (Parte 2 Central)" data-client="Next Level (Gamer Shop)">
+              <img src="Next Level/Social Media/Post Triplo/POST B.png" alt="Post Triplo Parte 2" loading="lazy" />
+            </div>
+            <div class="panoramic-slice" data-lightbox data-type="image" data-src="Next Level/Social Media/Post Triplo/POST C.png" data-title="Post Triplo (Parte 3)" data-client="Next Level (Gamer Shop)">
+              <img src="Next Level/Social Media/Post Triplo/POST C.png" alt="Post Triplo Parte 3" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============================================================
+         04. CAPELLUX & SPORTLLUX (Produtos de LED Terapia)
+         Carrossel Sportllux (Rosa e Azul) e Abaixo Imagens Brancas Capellux
+         =============================================================== -->
+    <section class="section capellux-section" id="capellux">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><span class="num">04</span> • PROJETO</div>
+          <h2 class="section-title">Capellux & Sportllux</h2>
+          <span class="section-client-type">Produtos de LED Terapia</span>
+          <div class="service-rendered-tag">Serviço prestado: Carrossel & Social Media</div>
+          <p class="section-subtitle">
+            Campanhas para redes sociais carrosseis e identidade&nbsp;visual.
+          </p>
+        </div>
+
+        <!-- Carrossel Sportllux (Apenas a imagem rosa e a imagem azul - Image 5 request) -->
+        <div class="carousel-full-stage interactive-carousel">
+          <div class="carousel-top-bar">
+            <div class="client-identity-pill">
+              <div class="client-avatar">SX</div>
+              <div class="client-info-text">
+                <strong>Sportllux</strong>
+                <span>Campanha LED Terapia</span>
+              </div>
+            </div>
+            <div class="carousel-counter-badge">01 / 02</div>
+          </div>
+
+          <div class="carousel-viewport">
+            <div class="carousel-track">
+              <!-- Slide 1: Imagem Rosa Sportllux -->
+              <div class="carousel-slide" data-lightbox data-type="image" data-src="Capellux & Sportllux/Social Media/Feed/Carrossel Capa.png" data-title="Sportllux — Campanha Rosa" data-client="Capellux & Sportllux">
+                <img src="Capellux & Sportllux/Social Media/Feed/Carrossel Capa.png" alt="Sportllux Rosa" />
+              </div>
+              <!-- Slide 2: Imagem Azul Sportllux -->
+              <div class="carousel-slide" data-lightbox data-type="image" data-src="Capellux & Sportllux/Social Media/Feed/1080x1080px_01.png" data-title="Sportllux — Campanha Azul" data-client="Capellux & Sportllux">
+                <img src="Capellux & Sportllux/Social Media/Feed/1080x1080px_01.png" alt="Sportllux Azul" />
+              </div>
+            </div>
+
+            <!-- Setas de Navegação -->
+            <button class="carousel-nav-btn prev" aria-label="Slide anterior">‹</button>
+            <button class="carousel-nav-btn next" aria-label="Próximo slide">›</button>
+          </div>
+
+          <!-- Paginação por Pontos -->
+          <div class="carousel-pagination">
+            <span class="carousel-dot active"></span>
+            <span class="carousel-dot"></span>
+          </div>
+
+          <!-- Mini-Strip com as 2 Lâminas -->
+          <div class="carousel-thumb-strip">
+            <button class="carousel-thumb-btn active" title="Lâmina Rosa"><img src="Capellux & Sportllux/Social Media/Feed/Carrossel Capa.png" alt="Thumb Rosa" /></button>
+            <button class="carousel-thumb-btn" title="Lâmina Azul"><img src="Capellux & Sportllux/Social Media/Feed/1080x1080px_01.png" alt="Thumb Azul" /></button>
+          </div>
+        </div>
+
+        <!-- Imagens em Predominância Brancas Capellux (Abaixo do Carrossel - Image 6 request) -->
+        <h3 style="font-family:var(--font-heading);font-size:1.15rem;margin-bottom:1.2rem;display:flex;align-items:center;gap:0.6rem;">
+          <span style="color:#ef4444;">✦</span> Peças de Feed Capellux 
+        </h3>
+        <div class="capellux-white-grid">
+          <div class="feed-thumb-card" data-lightbox data-type="image" data-src="Capellux & Sportllux/Social Media/Feed/1080x1080.png" data-title="Capellux Feed" data-client="Capellux & Sportllux">
+            <img src="Capellux & Sportllux/Social Media/Feed/1080x1080.png" alt="Capellux Feed" loading="lazy" />
+          </div>
+          <div class="feed-thumb-card" data-lightbox data-type="image" data-src="Capellux & Sportllux/Social Media/Feed/1080x1080(1).png" data-title="Capellux Feed" data-client="Capellux & Sportllux">
+            <img src="Capellux & Sportllux/Social Media/Feed/1080x1080(1).png" alt="Capellux Feed" loading="lazy" />
+          </div>
+          <div class="feed-thumb-card" data-lightbox data-type="image" data-src="Capellux & Sportllux/Social Media/Feed/1080x1080 2.png" data-title="Capellux Feed" data-client="Capellux & Sportllux">
+            <img src="Capellux & Sportllux/Social Media/Feed/1080x1080 2.png" alt="Capellux Feed" loading="lazy" />
+          </div>
+          <div class="feed-thumb-card" data-lightbox data-type="image" data-src="Capellux & Sportllux/Social Media/Feed/2.png" data-title="Capellux Feed" data-client="Capellux & Sportllux">
+            <img src="Capellux & Sportllux/Social Media/Feed/2.png" alt="Capellux Feed" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===============================================================
+         05. DOCES BÁRBAROS (Portal no Instagram @portaldocesbarbaros)
+         =============================================================== -->
+    <section class="section doces-barbaros-section" id="doces-barbaros">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag"><span class="num">05</span> • PROJETO</div>
+          <h2 class="section-title">Doces Bárbaros</h2>
+          <span class="section-client-type">Portal no Instagram @portaldocesbarbaros</span>
+          <div class="service-rendered-tag">
+            <span>Serviço prestado: Identidade Visual Desenvolvida, Logotipo & Design Editorial</span>
+            <span class="brand-badge-pill">✦ Desenvolvimento de Logo e Identidade Visual</span>
+          </div>
+          <p class="section-subtitle">
+            Design editorial, logotipo e carrosséis temáticos para portal cultural no&nbsp;Instagram.
+          </p>
+        </div>
+
+        <!-- Banner com Perfil do Instagram -->
+        <div class="db-insta-hero">
+          <div class="db-profile-badge">
+            <div class="db-avatar-ring">
+              <div class="db-avatar-inner">DB</div>
+            </div>
+            <div>
+              <h3 class="db-handle">@portaldocesbarbaros</h3>
+              <p class="db-handle-sub">MPB, Tropicália & Cultura Brasileira</p>
+            </div>
+          </div>
+
+          <a href="https://instagram.com/portaldocesbarbaros" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="border-color:#f59e0b;color:#f59e0b;">
+            <span>Acessar no Instagram</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+          </a>
+        </div>
+
+        <!-- Carrosséis com Mini-Strip de Lâminas (Área Total Visível) -->
+        <div class="dual-carousel-grid">
+          <!-- Carrossel 1: Série Narrativa (5 lâminas) -->
+          <div class="carousel-full-stage interactive-carousel">
+            <div class="carousel-top-bar">
+              <div class="client-identity-pill">
+                <div class="client-avatar db">DB</div>
+                <div class="client-info-text">
+                  <strong>Série Especial</strong>
+                  <span>Carrossel Narrativo</span>
+                </div>
+              </div>
+              <div class="carousel-counter-badge">01 / 05</div>
+            </div>
+
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Doces Barbaros/Social Media/carrossel 1/carrossel 1.png" data-title="Série Especial (Lâmina 1)" data-client="Doces Bárbaros">
+                  <img src="Doces Barbaros/Social Media/carrossel 1/carrossel 1.png" alt="Lâmina 1" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Doces Barbaros/Social Media/carrossel 1/carrossel 2.png" data-title="Série Especial (Lâmina 2)" data-client="Doces Bárbaros">
+                  <img src="Doces Barbaros/Social Media/carrossel 1/carrossel 2.png" alt="Lâmina 2" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Doces Barbaros/Social Media/carrossel 1/carrossel 3.png" data-title="Série Especial (Lâmina 3)" data-client="Doces Bárbaros">
+                  <img src="Doces Barbaros/Social Media/carrossel 1/carrossel 3.png" alt="Lâmina 3" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Doces Barbaros/Social Media/carrossel 1/carrossel 4.png" data-title="Série Especial (Lâmina 4)" data-client="Doces Bárbaros">
+                  <img src="Doces Barbaros/Social Media/carrossel 1/carrossel 4.png" alt="Lâmina 4" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Doces Barbaros/Social Media/carrossel 1/carrossel 5.png" data-title="Série Especial (Lâmina 5)" data-client="Doces Bárbaros">
+                  <img src="Doces Barbaros/Social Media/carrossel 1/carrossel 5.png" alt="Lâmina 5" />
+                </div>
+              </div>
+
+              <button class="carousel-nav-btn prev" aria-label="Slide anterior">‹</button>
+              <button class="carousel-nav-btn next" aria-label="Próximo slide">›</button>
+            </div>
+
+            <div class="carousel-pagination">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+
+            <!-- Mini-Strip com Todas as 5 Lâminas -->
+            <div class="carousel-thumb-strip">
+              <button class="carousel-thumb-btn active" title="Lâmina 1"><img src="Doces Barbaros/Social Media/carrossel 1/carrossel 1.png" alt="Thumb 1" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 2"><img src="Doces Barbaros/Social Media/carrossel 1/carrossel 2.png" alt="Thumb 2" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 3"><img src="Doces Barbaros/Social Media/carrossel 1/carrossel 3.png" alt="Thumb 3" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 4"><img src="Doces Barbaros/Social Media/carrossel 1/carrossel 4.png" alt="Thumb 4" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 5"><img src="Doces Barbaros/Social Media/carrossel 1/carrossel 5.png" alt="Thumb 5" /></button>
+            </div>
+          </div>
+
+          <!-- Carrossel 2: Citações Musicais (3 lâminas) -->
+          <div class="carousel-full-stage interactive-carousel">
+            <div class="carousel-top-bar">
+              <div class="client-identity-pill">
+                <div class="client-avatar db">DB</div>
+                <div class="client-info-text">
+                  <strong>Citações Musicais</strong>
+                  <span>Pílulas Poéticas</span>
+                </div>
+              </div>
+              <div class="carousel-counter-badge">01 / 03</div>
+            </div>
+
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Doces Barbaros/Social Media/carrossel 2/como vão as coisas charles.png" data-title="Citação Musical" data-client="Doces Bárbaros">
+                  <img src="Doces Barbaros/Social Media/carrossel 2/como vão as coisas charles.png" alt="Citação Musical" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Doces Barbaros/Social Media/carrossel 2/de perto ninguém é normal.png" data-title="Citação Musical" data-client="Doces Bárbaros">
+                  <img src="Doces Barbaros/Social Media/carrossel 2/de perto ninguém é normal.png" alt="Citação Musical" />
+                </div>
+                <div class="carousel-slide" data-lightbox data-type="image" data-src="Doces Barbaros/Social Media/carrossel 2/eu sou uma fruta gogóia.png" data-title="Citação Musical" data-client="Doces Bárbaros">
+                  <img src="Doces Barbaros/Social Media/carrossel 2/eu sou uma fruta gogóia.png" alt="Citação Musical" />
+                </div>
+              </div>
+
+              <button class="carousel-nav-btn prev" aria-label="Slide anterior">‹</button>
+              <button class="carousel-nav-btn next" aria-label="Próximo slide">›</button>
+            </div>
+
+            <div class="carousel-pagination">
+              <span class="carousel-dot active"></span>
+              <span class="carousel-dot"></span>
+              <span class="carousel-dot"></span>
+            </div>
+
+            <!-- Mini-Strip com as 3 Lâminas -->
+            <div class="carousel-thumb-strip">
+              <button class="carousel-thumb-btn active" title="Lâmina 1"><img src="Doces Barbaros/Social Media/carrossel 2/como vão as coisas charles.png" alt="Thumb 1" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 2"><img src="Doces Barbaros/Social Media/carrossel 2/de perto ninguém é normal.png" alt="Thumb 2" /></button>
+              <button class="carousel-thumb-btn" title="Lâmina 3"><img src="Doces Barbaros/Social Media/carrossel 2/eu sou uma fruta gogóia.png" alt="Thumb 3" /></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div> <!-- End #projetos -->
+
+  <!-- ===================================================================
+       06. SERVIÇOS
+       =================================================================== -->
+  <section class="section services-section" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag"><span class="num">06</span> • EXPERTISE</div>
+        <h2 class="section-title">Serviços</h2>
+        <p class="section-subtitle">
+          Design visual pensado para gerar valor de marca e resultados comerciais&nbsp;concretos.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card" data-tilt>
+          <div class="service-icon-box cyan">✦</div>
+          <h3 class="service-title">Motion Design & Vídeo</h3>
+          <p class="service-desc">
+            Animações para redes sociais, reels, vinhetas, contagens regressivas e criativos em vídeo para tráfego pago.
+          </p>
+          <ul class="service-deliverables">
+            <li>Teasers promocionais e de lançamento</li>
+            <li>Animação 2D de tipografia e ilustrações</li>
+            <li>Vídeos em loop e GIFs animados</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-tilt>
+          <div class="service-icon-box pink">⚡</div>
+          <h3 class="service-title">UI/UX & Landing Pages</h3>
+          <p class="service-desc">
+            Design de interfaces funcionais, responsivas e visualmente arrebatadoras, guiadas por hierarquia e conversão.
+          </p>
+          <ul class="service-deliverables">
+            <li>Landing pages de alta conversão</li>
+            <li>Design systems e prototipagem</li>
+            <li>UI mobile-first e micro-interações</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-tilt>
+          <div class="service-icon-box purple">📱</div>
+          <h3 class="service-title">Social Media Estratégico</h3>
+          <p class="service-desc">
+            Carrosséis, posts contínuos e peças com retenção para transformar perfis em canais de autoridade.
+          </p>
+          <ul class="service-deliverables">
+            <li>Carrosséis narrativos</li>
+            <li>Grades panorâmicas conectadas</li>
+            <li>Diretrizes de identidade para feed</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-tilt>
+          <div class="service-icon-box yellow">★</div>
+          <h3 class="service-title">Brand & Direção de Arte</h3>
+          <p class="service-desc">
+            Identidades visuais autênticas para marcas que querem relevância. Conceito, paleta e tipografia.
+          </p>
+          <ul class="service-deliverables">
+            <li>Manual de identidade visual</li>
+            <li>Identidade visual para presença digital estratégica</li>
+            <li>Direção de arte e universo de marca</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-tilt>
+          <div class="service-icon-box red">🎯</div>
+          <h3 class="service-title">Performance Ads</h3>
+          <p class="service-desc">
+            Banners estáticos e animados para Google Ads, Meta Ads e redes de display, testados para maximizar o CTR.
+          </p>
+          <ul class="service-deliverables">
+            <li>Variações para testes A/B em anúncios</li>
+            <li>GIFs animados e banners responsivos</li>
+            <li>Design alinhado a objetivos de tráfego</li>
+          </ul>
+        </div>
+
+        <div class="service-card" data-tilt>
+          <div class="service-icon-box lime">🛍️</div>
+          <h3 class="service-title">E-commerce Creative</h3>
+          <p class="service-desc">
+            Comunicação para lojas virtuais: banners de lançamento, popups, newsletters e kits sazonais.
+          </p>
+          <ul class="service-deliverables">
+            <li>Banners adaptados para desktop e mobile</li>
+            <li>Templates de e-mail marketing</li>
+            <li>Kits sazonais de campanhas promocionais</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       07. LAB CRIATIVO & PERFORMANCE ADS
+       Todas as artes da pasta Variados agrupadas por Banners, Google Ads e Social Media
+       =================================================================== -->
+  <section class="section lab-section" id="lab">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag"><span class="num">07</span> • ACERVO DE CAMPANHAS</div>
+        <h2 class="section-title">Lab Criativo & Performance Ads</h2>
+        <div class="service-rendered-tag">Serviço prestado: Performance Ads, Mídia Display, Motion & Social Media</div>
+        <p class="section-subtitle">
+          Acervo completo de campanhas e testes criativos para tráfego pago, redes de display e social media com foco em conversão e&nbsp;engajamento.
+        </p>
+      </div>
+
+      <!-- Abas de Filtro de Categorias -->
+      <div class="filter-tabs" data-target="lab-content">
+        <button class="tab-btn active" data-filter="all">Todas as Peças (21)</button>
+        <button class="tab-btn" data-filter="banners">Banners Web (2)</button>
+        <button class="tab-btn" data-filter="google-ads">Google Ads & Performance (8)</button>
+        <button class="tab-btn" data-filter="social-media">Social Media (11)</button>
+      </div>
+
+      <div id="lab-content">
+
+        <!-- ===============================================================
+             GRUPO 1: BANNERS (2 peças)
+             =============================================================== -->
+        <div class="lab-group" data-category="banners">
+          <div class="lab-group-header">
+            <h3 class="lab-group-title">
+              <span class="lab-group-icon" style="color: #a855f7;">✦</span> Banners
+            </h3>
+            <span class="lab-group-count">2 peças</span>
+          </div>
+
+          <div class="lab-grid banners-grid">
+            <!-- 01. Banner Promocional Desktop -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/banners/59516-Banner_Desk (1).png" data-title="Banner Promocional Desktop" data-client="Banners Web">
+              <div class="lab-media-box banner-box">
+                <img src="Variados/banners/59516-Banner_Desk (1).png" alt="Banner Promocional Desktop" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #a855f7;">Banners • Desktop</span>
+                <h4 class="lab-card-title">Banner Promocional Desktop</h4>
+              </div>
+            </div>
+
+            <!-- 02. Banner Animado GIF -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/banners/Segunda-campanha---É-hora-de-brilhar_op-2.gif" data-title="Campanha É Hora de Brilhar" data-client="Banners Web">
+              <div class="lab-media-box banner-box">
+                <img src="Variados/banners/Segunda-campanha---É-hora-de-brilhar_op-2.gif" alt="Campanha É Hora de Brilhar" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #a855f7;">Banners • GIF Animado</span>
+                <h4 class="lab-card-title">Campanha É Hora de Brilhar</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===============================================================
+             GRUPO 2: GOOGLE ADS (8 peças)
+             =============================================================== -->
+        <div class="lab-group" data-category="google-ads">
+          <div class="lab-group-header">
+            <h3 class="lab-group-title">
+              <span class="lab-group-icon" style="color: #06b6d4;">✦</span> Google Ads
+            </h3>
+            <span class="lab-group-count">8 peças</span>
+          </div>
+
+          <div class="lab-grid google-ads-grid">
+            <!-- 01. Vídeo Display -->
+            <div class="lab-card" data-lightbox data-type="video" data-src="Variados/Google Ads/1200x628.mp4" data-title="Vídeo Display em Alta Performance" data-client="Google Ads">
+              <div class="lab-media-box">
+                <video src="Variados/Google Ads/1200x628.mp4" muted loop playsinline></video>
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag">Google Ads • Vídeo Ads</span>
+                <h4 class="lab-card-title">Vídeo Display em Alta Performance</h4>
+              </div>
+            </div>
+
+            <!-- 02. Vídeo Promocional -->
+            <div class="lab-card" data-lightbox data-type="video" data-src="Variados/Google Ads/video_1.mp4" data-title="Vídeo Promocional Tráfego Pago" data-client="Google Ads">
+              <div class="lab-media-box">
+                <video src="Variados/Google Ads/video_1.mp4" muted loop playsinline></video>
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag">Google Ads • Vídeo Ads</span>
+                <h4 class="lab-card-title">Vídeo Promocional Tráfego Pago</h4>
+              </div>
+            </div>
+
+            <!-- 03. Banner Display 1 -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Google Ads/1200x627.png" data-title="Banner de Performance" data-client="Google Ads">
+              <div class="lab-media-box">
+                <img src="Variados/Google Ads/1200x627.png" alt="Banner de Performance" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag">Google Ads • Display</span>
+                <h4 class="lab-card-title">Banner de Performance</h4>
+              </div>
+            </div>
+
+            <!-- 04. Banner Display 2 -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Google Ads/1200x627_.png" data-title="Anúncio Rede de Display" data-client="Google Ads">
+              <div class="lab-media-box">
+                <img src="Variados/Google Ads/1200x627_.png" alt="Anúncio Rede de Display" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag">Google Ads • Display</span>
+                <h4 class="lab-card-title">Anúncio Rede de Display</h4>
+              </div>
+            </div>
+
+            <!-- 05. Banner Display 3 -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Google Ads/1200x627_b.png" data-title="Campanha Promocional" data-client="Google Ads">
+              <div class="lab-media-box">
+                <img src="Variados/Google Ads/1200x627_b.png" alt="Campanha Promocional" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag">Google Ads • Display</span>
+                <h4 class="lab-card-title">Campanha Promocional</h4>
+              </div>
+            </div>
+
+            <!-- 06. Campanha Miss Skin -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Google Ads/miss skin 1.png" data-title="Campanha Miss Skin" data-client="Google Ads">
+              <div class="lab-media-box square">
+                <img src="Variados/Google Ads/miss skin 1.png" alt="Campanha Miss Skin" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag">Google Ads • Campanha</span>
+                <h4 class="lab-card-title">Campanha Miss Skin</h4>
+              </div>
+            </div>
+
+            <!-- 07. Campanha Quadrada 1080 -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Google Ads/1080x1080(2).png" data-title="Campanha de Conversão" data-client="Google Ads">
+              <div class="lab-media-box square">
+                <img src="Variados/Google Ads/1080x1080(2).png" alt="Campanha de Conversão" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag">Google Ads • Display</span>
+                <h4 class="lab-card-title">Campanha de Conversão</h4>
+              </div>
+            </div>
+
+            <!-- 08. Card Promocional 550 -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Google Ads/550x550.png" data-title="Card Promocional" data-client="Google Ads">
+              <div class="lab-media-box square">
+                <img src="Variados/Google Ads/550x550.png" alt="Card Promocional" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag">Google Ads • Display Quadrado</span>
+                <h4 class="lab-card-title">Card Promocional</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===============================================================
+             GRUPO 3: SOCIAL MEDIA (11 peças)
+             =============================================================== -->
+        <div class="lab-group" data-category="social-media">
+          <div class="lab-group-header">
+            <h3 class="lab-group-title">
+              <span class="lab-group-icon" style="color: #ff2e93;">✦</span> Social Media
+            </h3>
+            <span class="lab-group-count">11 peças</span>
+          </div>
+
+          <div class="lab-grid social-media-grid">
+            <!-- 01. GIF Dia dos Professores -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/dia-dos-prof-final_4 (1).gif" data-title="Campanha Dia dos Professores" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/dia-dos-prof-final_4 (1).gif" alt="Campanha Dia dos Professores" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • GIF Animado</span>
+                <h4 class="lab-card-title">Campanha Dia dos Professores</h4>
+              </div>
+            </div>
+
+            <!-- 02. Setembro Amarelo -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/Setembro Amarelo.png" data-title="Campanha Setembro Amarelo" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/Setembro Amarelo.png" alt="Campanha Setembro Amarelo" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Campanha</span>
+                <h4 class="lab-card-title">Campanha Setembro Amarelo</h4>
+              </div>
+            </div>
+
+            <!-- 03. Card de Engajamento (Social Media) -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/43031908_1938137512972188_2185549075561054208_n.jpg" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/43031908_1938137512972188_2185549075561054208_n.jpg" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+
+            <!-- 04. Card de Engajamento -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/44110202_1358245717643233_3692310872438341632_o.jpg" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/44110202_1358245717643233_3692310872438341632_o.jpg" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+
+            <!-- 05. Card de Engajamento (Candinho) -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/Facebook post  candinho 630x504.jpg" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/Facebook post  candinho 630x504.jpg" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+
+            <!-- 06. Card de Engajamento (Prius) -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/a.png" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/a.png" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+
+            <!-- 07. Card de Engajamento (Corolla) -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/a1.png" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/a1.png" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+
+            <!-- 08. Card de Engajamento (Amarok) -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/b.png" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/b.png" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+
+            <!-- 09. Card de Engajamento (Arco-íris) -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/b1.png" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/b1.png" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+
+            <!-- 10. Card de Engajamento (Faixa de Retenção) -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/c.png" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/c.png" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+
+            <!-- 11. Card de Engajamento (Foca no Feriado) -->
+            <div class="lab-card" data-lightbox data-type="image" data-src="Variados/Social Media/c1.png" data-title="Card de Engajamento" data-client="Social Media">
+              <div class="lab-media-box square">
+                <img src="Variados/Social Media/c1.png" alt="Card de Engajamento" loading="lazy" />
+              </div>
+              <div class="lab-card-body">
+                <span class="lab-card-tag" style="color: #ff2e93;">Social Media • Engajamento</span>
+                <h4 class="lab-card-title">Card de Engajamento</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- End #lab-content -->
+    </div>
+  </section>
+
+
+
+  <!-- ===================================================================
+       08. PROCESSO DE TRABALHO
+       =================================================================== -->
+  <section class="section process-section" id="processo">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag"><span class="num">08</span> • FLUXO</div>
+        <h2 class="section-title">Processo de Trabalho</h2>
+        <p class="section-subtitle">
+          Processo ágil do briefing à entrega final para garantir precisão e&nbsp;pontualidade.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="process-step-num">01</div>
+          <h4 class="process-step-title">Briefing</h4>
+          <p class="process-step-desc">Alinhamento de objetivos, referências e tom de voz.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-num">02</div>
+          <h4 class="process-step-title">Conceito</h4>
+          <p class="process-step-desc">Moodboard e amostras para validação do direcionamento.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-num">03</div>
+          <h4 class="process-step-title">Produção</h4>
+          <p class="process-step-desc">Execução de todas as peças, animações e refinamento visual.</p>
+        </div>
+        <div class="process-step">
+          <div class="process-step-num">04</div>
+          <h4 class="process-step-title">Entrega</h4>
+          <p class="process-step-desc">Arquivos organizados em alta resolução prontos para veiculação.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================================================
+       CONTATO & FOOTER
+       =================================================================== -->
+  <section class="section contact-section" id="contato">
+    <div class="container">
+      <div class="contact-card-main">
+       
+        <h2 class="contact-headline">
+          Vamos trabalhar <span class="text-gradient">juntos?</span>
+        </h2>
+
+        <p class="contact-subtext">
+          Seja para um projeto pontual ou uma parceria contínua, entre em contato direto pelo WhatsApp ou envie um&nbsp;e-mail.
+        </p>
+
+        <div class="contact-buttons-group">
+          <a href="https://wa.me/5516997748334?text=Olá%20Guilherme,%20vi%20seu%20portfólio%20e%20gostaria%20de%20um%20orçamento!" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-pulse" style="font-size:1.05rem;padding:0.95rem 2rem;">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.299.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.353.101.173.45 0.742.964 1.201.662.591 1.221.774 1.394.86.173.086.274.072.376-.043.101-.116.433-.506.549-.679.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824zM12 2C6.477 2 2 6.477 2 12c0 1.891.524 3.66 1.434 5.174L2 22l4.981-1.396C8.423 21.464 10.151 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/>
+            </svg>
+            <span>Conversar no WhatsApp: +55 16 99774 8334</span>
+          </a>
+
+          <a href="mailto:machinemistake@gmail.com" class="btn btn-outline" style="font-size:1.05rem;padding:0.95rem 2rem;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>Enviar E-mail Direto</span>
+          </a>
+        </div>
+
+        <div class="contact-direct-cards">
+          <div class="direct-box">
+            <div>
+              <span class="direct-label">E-mail Oficial</span>
+              <p class="direct-value">machinemistake@gmail.com</p>
+            </div>
+            <button class="btn-copy" data-copy="machinemistake@gmail.com" title="Copiar E-mail">Copiar</button>
+          </div>
+
+          <div class="direct-box">
+            <div>
+              <span class="direct-label">WhatsApp Direto</span>
+              <p class="direct-value">+55 16 99774 8334</p>
+            </div>
+            <button class="btn-copy" data-copy="+5516997748334" title="Copiar WhatsApp">Copiar</button>
+          </div>
+        </div>
+
+        <div class="site-footer">
+          <div>
+            © 2026 <strong>Guilherme Scopin</strong>. Todos os direitos reservados.
+          </div>
+          <div class="footer-nav">
+            <a href="#projetos" class="footer-link">Projetos</a>
+            <a href="#servicos" class="footer-link">Serviços</a>
+            <a href="#lab" class="footer-link">Lab</a>
+            <a href="#processo" class="footer-link">Processo</a>
+            <a href="#contato" class="footer-link">Contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fullscreen Lightbox Modal -->
+  <div class="lightbox-modal">
+    <div class="lightbox-container">
+      <button class="lightbox-close-btn" aria-label="Fechar Lightbox">✕</button>
+      <div class="lightbox-media-wrapper"></div>
+      <div class="lightbox-info">
+        <h4 class="lightbox-title"></h4>
+        <p class="lightbox-client"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notice -->
+  <div class="toast-notice">✓ Copiado com sucesso!</div>
+
+  <!-- Main JavaScript Controller -->
+  <script src="js/main.js"></script>
+</body>
+</html>
